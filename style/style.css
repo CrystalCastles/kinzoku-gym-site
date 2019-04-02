@@ -63,7 +63,7 @@ body {
 }
 
 /* HOME SECTION */
-#section-home{
+#section-home {
   margin-top: 15px;
   display: flex;
   align-items: center;
@@ -374,4 +374,66 @@ ul li {
   -webkit-box-shadow: 0px 0px 8px 2px #fff;
   -moz-box-shadow: 0px 0px 8px 2px #fff;
   box-shadow: 0px 0px 8px 2px #fff;
+}
+
+/* CONTACT SECTION */
+#section-contact {
+  color: #fff;
+  overflow: auto;
+  margin-top: 30px;
+  background: -webkit-linear-gradient(top, #000, #000 18%, #f7f7f7 18%, #f7f7f7);
+}
+
+#section-contact > .maxWidth {
+  max-width: 60%;
+}
+
+label {
+  font-weight: bold;
+  color: #000;
+}
+
+#messageArea {
+  resize: none;
+}
+
+.submit-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #FFF;
+  padding: 12px 70px;
+  transition: 0.5s;
+  display: block;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.submit-button:hover {
+  -webkit-box-shadow: 0px 0px 8px 2px #fff;
+  -moz-box-shadow: 0px 0px 8px 2px #fff;
+  box-shadow: 0px 0px 8px 2px #fff;
+}
+
+input, #messageArea {
+  border-radius: 0 !important;
+  border: 1px solid black !important;
+}
+
+form {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  #section-contact > .maxWidth {
+    max-width: 80%;
+  }
+
+  .submit-button {
+    margin: 0 auto;
+    float: none;
+    padding: 12px 120px;
+  }
 }
