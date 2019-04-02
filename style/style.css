@@ -8,6 +8,17 @@ body {
   background-color: #000;
 }
 
+.main-title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.main-subtitle {
+  text-align: center;
+  letter-spacing: .1em;
+  margin-bottom: 35px;
+}
+
 /* NAVBAR SECTION */
 #nav-bar {
   position: sticky;
@@ -185,17 +196,6 @@ body {
   text-align: right;
 }
 
-.classes-title {
-  text-align: center;
-  font-size: 60px;
-}
-
-.classes-subtitle {
-  text-align: center;
-  letter-spacing: .1em;
-  margin-bottom: 40px;
-}
-
 .class-desc {
   font-size: 18px;
   letter-spacing: .1em;
@@ -318,6 +318,10 @@ body {
 
 #section-memberships p {
   margin-bottom: 5px;
+}
+
+#section-memberships .main-subtitle {
+  padding-bottom: 30px;
 }
 
 .plan-header {
